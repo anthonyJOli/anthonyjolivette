@@ -1,24 +1,115 @@
 <!DOCTYPE html> 
 <html> 
+  
 <head> 
 <title>Anthony Jolivette | Portfolio</title> 
+
+<style>
+body{ 
+margin:0;
+font-family:Arial, sans-serif; 
+background:#0f172a; 
+color:white;
+} 
+  
+header{ 
+padding:60px 20px; 
+text-align:center; 
+background:#020617; 
+}
+  
+h1{ 
+font-size:40px; 
+margin:0; 
+} 
+  
+p{ 
+color:#94a3b8; 
+}
+
+.section{
+padding:40px 20px; 
+max-width:900px;
+margin:auto;
+}
+  
+.projects{ 
+display:grid; 
+grid-template-columns:1fr 1fr; 
+gap:20px;
+}
+  
+.card{
+background:#1e293b; 
+padding:20px; 
+border-radius:10px; 
+transition:0.3s;
+}
+  
+.card:hover{
+transform:scale(1.05); 
+} 
+  
+a{ 
+color:#38bdf8; 
+text-decoration:none;
+}
+  
+footer{ 
+text-align:center; 
+padding:20px; 
+color:#64748b; 
+} 
+</style> 
+
 </head>
   
 <body> 
   
+<header> 
 <h1>Anthony Jolivette</h1> 
+<p>Aspiring Developer | Python | Web Development</p> 
+</header>
 
+<div class="section"> 
 <h2>About Me</h2> 
-<p>Aspiring developer learning Python and web development.</p>
+<p> 
+I am an aspiring developer learning Python and web development. I enjoy building projects and improving my skills every day.
+</p> 
+</div> 
   
-<h2>Projects</h2>
-<ul> 
-<li>Python Turtle Graphics</li>
-<li>Calculator App</li> 
-</ul>
+<div class="section"> 
+<h2>Projects</h2> 
   
+<div class="projects">
+  
+<div class="card"> 
+<h3>Python Turtle Graphics</h3>
+<p>Creative drawing using Python Turtle.</p> 
+</div> 
+  
+<div class="card">
+<h3>Calculator App</h3> 
+<p>A simple calculator built with Python.</p>
+</div> 
+
+</div> 
+
+</div> 
+  
+<div class="section"> 
 <h2>GitHub</h2> 
-<p>github.com/anthonyjolivette</p>
+<p> 
+<a href="https://github.com/anthonyjolivette" target="_blank">
+View My GitHub 
+</a> 
+</p>
+</div>
+  
+<footer> 
+<p>© 2026 Anthony Jolivette</p> 
+</footer> 
 
 </body> 
+
 </html>
